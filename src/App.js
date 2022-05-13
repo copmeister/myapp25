@@ -1,8 +1,9 @@
 import Navbar from "./Navbar";
 import Home from "./Home";
-
-// import BarChart from './BarChart';
+import BarChart from './BarChart';
 import { BrowserRouter as Router, Route, Switch} from 'react-router-dom';
+// import { Router, Switch, Route, } from "react-router-dom";
+
 // import Create from "./Create";
 // import BlogDetails from "./BlogDetails";
 // import CalcApp from "./CalcApp";
@@ -29,10 +30,10 @@ function App() {
             </Route>
             <Route path="/figma">
               <FigmaSample />
-            </Route>
+            </Route> */}
             <Route path="/barchart">
               <BarChart />
-            </Route> */}
+            </Route>
           </Switch>
         </div>
       </div>
