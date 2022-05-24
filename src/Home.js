@@ -7,12 +7,12 @@ import { useState } from "react";
 const Home = () => {
     let name = 'Constant'; // not reactive
     const [name2, setName2] = useState('Variable'); // this change is reactive
-    const [age, setAge] = useState(38); // this is also reactive
+    // const [age, setAge] = useState(38); // this is also reactive
 
     const handleClick = () => {
         name = 'Changed Constant';
         setName2('Changed Variable');
-        setAge(44);
+        // setAge(44);
     }
 
     // const { data: blogs, isPending, error} = useFetch('http://localhost:8000/blogs');
